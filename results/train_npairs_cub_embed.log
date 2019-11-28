@@ -1,0 +1,1262 @@
+INFO:root:Namespace(batch_size=128, data_path='/DATA/Datasets/CUB_200_2011/', dataset='CUB', decrease_cnn_lr=False, embed_dim=64, epoch_length=200, epochs=25, factor=0.5, gpus=1, kvstore='device', l2reg_weight=0.0005, load_checkpoint=False, lr=0.0001, model='inception-bn', number_of_runs=1, optimizer='adam', same_image_sampling=0.1, save_model_prefix='npairs_model', seed=123, steps='12,14,16,18', symmetric_loss=False, use_crops=False, wd=1e-05)
+INFO:root:Using 1 GPU(s)
+INFO:root:Starting run 1/1
+INFO:root:Epoch 1 learning rate=0.000100
+INFO:root:[Epoch 1] validation: Recall@1=37.542201
+INFO:root:[Epoch 1] validation: Recall@2=50.911546
+INFO:root:[Epoch 1] validation: Recall@4=64.399055
+INFO:root:[Epoch 1] validation: Recall@8=76.451722
+INFO:root:[Epoch 1] validation: Recall@16=85.938555
+INFO:root:[Epoch 1] validation: NMI=54.756806
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 37.542201 NMI: 54.756806
+INFO:root:Epoch 2 learning rate=0.000100
+INFO:root:[Epoch 2] validation: Recall@1=43.146523
+INFO:root:[Epoch 2] validation: Recall@2=56.262660
+INFO:root:[Epoch 2] validation: Recall@4=68.433491
+INFO:root:[Epoch 2] validation: Recall@8=79.945982
+INFO:root:[Epoch 2] validation: Recall@16=88.656313
+INFO:root:[Epoch 2] validation: NMI=58.444546
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 43.146523 NMI: 58.444546
+INFO:root:Epoch 3 learning rate=0.000100
+INFO:root:[Epoch 3] validation: Recall@1=46.505739
+INFO:root:[Epoch 3] validation: Recall@2=59.469953
+INFO:root:[Epoch 3] validation: Recall@4=71.758947
+INFO:root:[Epoch 3] validation: Recall@8=82.106685
+INFO:root:[Epoch 3] validation: Recall@16=89.854828
+INFO:root:[Epoch 3] validation: NMI=60.087369
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 46.505739 NMI: 60.087369
+INFO:root:Epoch 4 learning rate=0.000100
+INFO:root:[Epoch 4] validation: Recall@1=48.430115
+INFO:root:[Epoch 4] validation: Recall@2=61.765699
+INFO:root:[Epoch 4] validation: Recall@4=73.733964
+INFO:root:[Epoch 4] validation: Recall@8=83.744092
+INFO:root:[Epoch 4] validation: Recall@16=90.766374
+INFO:root:[Epoch 4] validation: NMI=60.796209
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 48.430115 NMI: 60.796209
+INFO:root:Epoch 5 learning rate=0.000100
+INFO:root:[Epoch 5] validation: Recall@1=50.928427
+INFO:root:[Epoch 5] validation: Recall@2=63.639433
+INFO:root:[Epoch 5] validation: Recall@4=75.084402
+INFO:root:[Epoch 5] validation: Recall@8=84.149223
+INFO:root:[Epoch 5] validation: Recall@16=90.850777
+INFO:root:[Epoch 5] validation: NMI=62.303103
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 50.928427 NMI: 62.303103
+INFO:root:Epoch 6 learning rate=0.000100
+INFO:root:[Epoch 6] validation: Recall@1=50.337610
+INFO:root:[Epoch 6] validation: Recall@2=62.862930
+INFO:root:[Epoch 6] validation: Recall@4=73.970290
+INFO:root:[Epoch 6] validation: Recall@8=83.237677
+INFO:root:[Epoch 6] validation: Recall@16=90.732613
+INFO:root:[Epoch 6] validation: NMI=61.358209
+INFO:root:Epoch 7 learning rate=0.000100
+INFO:root:[Epoch 7] validation: Recall@1=52.126941
+INFO:root:[Epoch 7] validation: Recall@2=65.108035
+INFO:root:[Epoch 7] validation: Recall@4=76.147873
+INFO:root:[Epoch 7] validation: Recall@8=85.212694
+INFO:root:[Epoch 7] validation: Recall@16=91.812964
+INFO:root:[Epoch 7] validation: NMI=61.946017
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 52.126941 NMI: 61.946017
+INFO:root:Epoch 8 learning rate=0.000100
+INFO:root:[Epoch 8] validation: Recall@1=51.890614
+INFO:root:[Epoch 8] validation: Recall@2=64.837947
+INFO:root:[Epoch 8] validation: Recall@4=75.844024
+INFO:root:[Epoch 8] validation: Recall@8=84.858204
+INFO:root:[Epoch 8] validation: Recall@16=91.796084
+INFO:root:[Epoch 8] validation: NMI=61.826222
+INFO:root:Epoch 9 learning rate=0.000100
+INFO:root:[Epoch 9] validation: Recall@1=52.312627
+INFO:root:[Epoch 9] validation: Recall@2=64.449696
+INFO:root:[Epoch 9] validation: Recall@4=76.012829
+INFO:root:[Epoch 9] validation: Recall@8=85.094531
+INFO:root:[Epoch 9] validation: Recall@16=91.677920
+INFO:root:[Epoch 9] validation: NMI=62.937836
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 52.312627 NMI: 62.937836
+INFO:root:Epoch 10 learning rate=0.000100
+INFO:root:[Epoch 10] validation: Recall@1=51.299797
+INFO:root:[Epoch 10] validation: Recall@2=64.652262
+INFO:root:[Epoch 10] validation: Recall@4=75.911546
+INFO:root:[Epoch 10] validation: Recall@8=85.668467
+INFO:root:[Epoch 10] validation: Recall@16=91.593518
+INFO:root:[Epoch 10] validation: NMI=62.859666
+INFO:root:Epoch 11 learning rate=0.000100
+INFO:root:[Epoch 11] validation: Recall@1=52.464551
+INFO:root:[Epoch 11] validation: Recall@2=64.939230
+INFO:root:[Epoch 11] validation: Recall@4=75.742741
+INFO:root:[Epoch 11] validation: Recall@8=84.875084
+INFO:root:[Epoch 11] validation: Recall@16=91.627279
+INFO:root:[Epoch 11] validation: NMI=62.884815
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 52.464551 NMI: 62.884815
+INFO:root:Epoch 12 learning rate=0.000050
+INFO:root:[Epoch 12] validation: Recall@1=52.734639
+INFO:root:[Epoch 12] validation: Recall@2=64.837947
+INFO:root:[Epoch 12] validation: Recall@4=76.063471
+INFO:root:[Epoch 12] validation: Recall@8=85.398379
+INFO:root:[Epoch 12] validation: Recall@16=92.015530
+INFO:root:[Epoch 12] validation: NMI=63.587803
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 52.734639 NMI: 63.587803
+INFO:root:Epoch 13 learning rate=0.000050
+INFO:root:[Epoch 13] validation: Recall@1=52.700878
+INFO:root:[Epoch 13] validation: Recall@2=65.192438
+INFO:root:[Epoch 13] validation: Recall@4=75.945307
+INFO:root:[Epoch 13] validation: Recall@8=85.145172
+INFO:root:[Epoch 13] validation: Recall@16=91.644159
+INFO:root:[Epoch 13] validation: NMI=63.124421
+INFO:root:Epoch 14 learning rate=0.000025
+INFO:root:[Epoch 14] validation: Recall@1=52.819041
+INFO:root:[Epoch 14] validation: Recall@2=65.428764
+INFO:root:[Epoch 14] validation: Recall@4=75.692100
+INFO:root:[Epoch 14] validation: Recall@8=85.043889
+INFO:root:[Epoch 14] validation: Recall@16=91.948008
+INFO:root:[Epoch 14] validation: NMI=63.325126
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 52.819041 NMI: 63.325126
+INFO:root:Epoch 15 learning rate=0.000025
+INFO:root:[Epoch 15] validation: Recall@1=53.224173
+INFO:root:[Epoch 15] validation: Recall@2=65.530047
+INFO:root:[Epoch 15] validation: Recall@4=76.350439
+INFO:root:[Epoch 15] validation: Recall@8=85.010128
+INFO:root:[Epoch 15] validation: Recall@16=91.880486
+INFO:root:[Epoch 15] validation: NMI=63.405909
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 53.224173 NMI: 63.405909
+INFO:root:Epoch 16 learning rate=0.000013
+INFO:root:[Epoch 16] validation: Recall@1=53.308575
+INFO:root:[Epoch 16] validation: Recall@2=66.272789
+INFO:root:[Epoch 16] validation: Recall@4=76.688049
+INFO:root:[Epoch 16] validation: Recall@8=85.111411
+INFO:root:[Epoch 16] validation: Recall@16=91.897367
+INFO:root:[Epoch 16] validation: NMI=64.453860
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 53.308575 NMI: 64.453860
+INFO:root:Epoch 17 learning rate=0.000013
+INFO:root:[Epoch 17] validation: Recall@1=53.528022
+INFO:root:[Epoch 17] validation: Recall@2=66.171506
+INFO:root:[Epoch 17] validation: Recall@4=76.553005
+INFO:root:[Epoch 17] validation: Recall@8=85.297097
+INFO:root:[Epoch 17] validation: Recall@16=91.914247
+INFO:root:[Epoch 17] validation: NMI=63.654992
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 53.528022 NMI: 63.654992
+INFO:root:Epoch 18 learning rate=0.000006
+INFO:root:[Epoch 18] validation: Recall@1=53.325456
+INFO:root:[Epoch 18] validation: Recall@2=66.053342
+INFO:root:[Epoch 18] validation: Recall@4=76.738690
+INFO:root:[Epoch 18] validation: Recall@8=85.229575
+INFO:root:[Epoch 18] validation: Recall@16=91.711681
+INFO:root:[Epoch 18] validation: NMI=64.126035
+INFO:root:Epoch 19 learning rate=0.000006
+INFO:root:[Epoch 19] validation: Recall@1=53.291695
+INFO:root:[Epoch 19] validation: Recall@2=65.833896
+INFO:root:[Epoch 19] validation: Recall@4=76.485483
+INFO:root:[Epoch 19] validation: Recall@8=85.060770
+INFO:root:[Epoch 19] validation: Recall@16=91.863606
+INFO:root:[Epoch 19] validation: NMI=63.712310
+INFO:root:Epoch 20 learning rate=0.000006
+INFO:root:[Epoch 20] validation: Recall@1=53.207292
+INFO:root:[Epoch 20] validation: Recall@2=65.530047
+INFO:root:[Epoch 20] validation: Recall@4=76.671168
+INFO:root:[Epoch 20] validation: Recall@8=85.398379
+INFO:root:[Epoch 20] validation: Recall@16=91.424713
+INFO:root:[Epoch 20] validation: NMI=63.702179
+INFO:root:Epoch 21 learning rate=0.000006
+INFO:root:[Epoch 21] validation: Recall@1=53.426739
+INFO:root:[Epoch 21] validation: Recall@2=65.597569
+INFO:root:[Epoch 21] validation: Recall@4=76.434841
+INFO:root:[Epoch 21] validation: Recall@8=85.094531
+INFO:root:[Epoch 21] validation: Recall@16=92.015530
+INFO:root:[Epoch 21] validation: NMI=63.683406
+INFO:root:Epoch 22 learning rate=0.000006
+INFO:root:[Epoch 22] validation: Recall@1=53.679946
+INFO:root:[Epoch 22] validation: Recall@2=65.850777
+INFO:root:[Epoch 22] validation: Recall@4=76.350439
+INFO:root:[Epoch 22] validation: Recall@8=85.145172
+INFO:root:[Epoch 22] validation: Recall@16=91.914247
+INFO:root:[Epoch 22] validation: NMI=63.605823
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 53.679946 NMI: 63.605823
+INFO:root:Epoch 23 learning rate=0.000006
+INFO:root:[Epoch 23] validation: Recall@1=53.561783
+INFO:root:[Epoch 23] validation: Recall@2=65.884537
+INFO:root:[Epoch 23] validation: Recall@4=76.350439
+INFO:root:[Epoch 23] validation: Recall@8=85.195814
+INFO:root:[Epoch 23] validation: Recall@16=91.661040
+INFO:root:[Epoch 23] validation: NMI=63.430086
+INFO:root:Epoch 24 learning rate=0.000006
+INFO:root:[Epoch 24] validation: Recall@1=53.511141
+INFO:root:[Epoch 24] validation: Recall@2=66.188386
+INFO:root:[Epoch 24] validation: Recall@4=76.907495
+INFO:root:[Epoch 24] validation: Recall@8=85.195814
+INFO:root:[Epoch 24] validation: Recall@16=91.880486
+INFO:root:[Epoch 24] validation: NMI=63.776260
+INFO:root:Epoch 25 learning rate=0.000006
+INFO:root:[Epoch 25] validation: Recall@1=53.494261
+INFO:root:[Epoch 25] validation: Recall@2=65.968940
+INFO:root:[Epoch 25] validation: Recall@4=76.299797
+INFO:root:[Epoch 25] validation: Recall@8=85.094531
+INFO:root:[Epoch 25] validation: Recall@16=92.032411
+INFO:root:[Epoch 25] validation: NMI=63.213660
+INFO:root:Run 1 finished with 53.679946
+INFO:root:Average validation of 1 runs:
+R@1	R@2	R@4	R@8	R@16	NMI
+53.68	65.85	76.35	85.15	91.91	63.61
+INFO:root:Namespace(batch_size=128, data_path='/DATA/Datasets/CUB_200_2011/', dataset='CUB', decrease_cnn_lr=False, embed_dim=128, epoch_length=200, epochs=25, factor=0.5, gpus=1, kvstore='device', l2reg_weight=0.0005, load_checkpoint=False, lr=0.0001, model='inception-bn', number_of_runs=1, optimizer='adam', same_image_sampling=0.1, save_model_prefix='npairs_model', seed=123, steps='12,14,16,18', symmetric_loss=False, use_crops=False, wd=1e-05)
+INFO:root:Using 1 GPU(s)
+INFO:root:Starting run 1/1
+INFO:root:Epoch 1 learning rate=0.000100
+INFO:root:[Epoch 1] validation: Recall@1=40.817016
+INFO:root:[Epoch 1] validation: Recall@2=54.659014
+INFO:root:[Epoch 1] validation: Recall@4=67.454423
+INFO:root:[Epoch 1] validation: Recall@8=79.270763
+INFO:root:[Epoch 1] validation: Recall@16=88.048616
+INFO:root:[Epoch 1] validation: NMI=56.643981
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 40.817016 NMI: 56.643981
+INFO:root:Epoch 2 learning rate=0.000100
+INFO:root:[Epoch 2] validation: Recall@1=47.906820
+INFO:root:[Epoch 2] validation: Recall@2=61.461850
+INFO:root:[Epoch 2] validation: Recall@4=73.733964
+INFO:root:[Epoch 2] validation: Recall@8=83.794733
+INFO:root:[Epoch 2] validation: Recall@16=91.255908
+INFO:root:[Epoch 2] validation: NMI=59.930731
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 47.906820 NMI: 59.930731
+INFO:root:Epoch 3 learning rate=0.000100
+INFO:root:[Epoch 3] validation: Recall@1=50.371371
+INFO:root:[Epoch 3] validation: Recall@2=63.048616
+INFO:root:[Epoch 3] validation: Recall@4=75.354490
+INFO:root:[Epoch 3] validation: Recall@8=85.077650
+INFO:root:[Epoch 3] validation: Recall@16=91.441594
+INFO:root:[Epoch 3] validation: NMI=61.854879
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 50.371371 NMI: 61.854879
+INFO:root:Epoch 4 learning rate=0.000100
+INFO:root:[Epoch 4] validation: Recall@1=52.869683
+INFO:root:[Epoch 4] validation: Recall@2=65.766374
+INFO:root:[Epoch 4] validation: Recall@4=76.333558
+INFO:root:[Epoch 4] validation: Recall@8=85.229575
+INFO:root:[Epoch 4] validation: Recall@16=92.201215
+INFO:root:[Epoch 4] validation: NMI=63.213645
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 52.869683 NMI: 63.213645
+INFO:root:Epoch 5 learning rate=0.000100
+INFO:root:[Epoch 5] validation: Recall@1=53.831870
+INFO:root:[Epoch 5] validation: Recall@2=66.627279
+INFO:root:[Epoch 5] validation: Recall@4=77.143822
+INFO:root:[Epoch 5] validation: Recall@8=86.039838
+INFO:root:[Epoch 5] validation: Recall@16=92.403781
+INFO:root:[Epoch 5] validation: NMI=63.792112
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 53.831870 NMI: 63.792112
+INFO:root:Epoch 6 learning rate=0.000100
+INFO:root:[Epoch 6] validation: Recall@1=53.747468
+INFO:root:[Epoch 6] validation: Recall@2=66.711681
+INFO:root:[Epoch 6] validation: Recall@4=77.261985
+INFO:root:[Epoch 6] validation: Recall@8=85.989196
+INFO:root:[Epoch 6] validation: Recall@16=92.471303
+INFO:root:[Epoch 6] validation: NMI=63.734086
+INFO:root:Epoch 7 learning rate=0.000100
+INFO:root:[Epoch 7] validation: Recall@1=55.148548
+INFO:root:[Epoch 7] validation: Recall@2=67.623228
+INFO:root:[Epoch 7] validation: Recall@4=78.291695
+INFO:root:[Epoch 7] validation: Recall@8=86.968265
+INFO:root:[Epoch 7] validation: Recall@16=93.062120
+INFO:root:[Epoch 7] validation: NMI=64.699743
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 55.148548 NMI: 64.699743
+INFO:root:Epoch 8 learning rate=0.000100
+INFO:root:[Epoch 8] validation: Recall@1=55.519919
+INFO:root:[Epoch 8] validation: Recall@2=68.264686
+INFO:root:[Epoch 8] validation: Recall@4=79.355165
+INFO:root:[Epoch 8] validation: Recall@8=87.339635
+INFO:root:[Epoch 8] validation: Recall@16=93.028359
+INFO:root:[Epoch 8] validation: NMI=64.223953
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 55.519919 NMI: 64.223953
+INFO:root:Epoch 9 learning rate=0.000100
+INFO:root:[Epoch 9] validation: Recall@1=55.756246
+INFO:root:[Epoch 9] validation: Recall@2=69.226874
+INFO:root:[Epoch 9] validation: Recall@4=79.625253
+INFO:root:[Epoch 9] validation: Recall@8=87.424038
+INFO:root:[Epoch 9] validation: Recall@16=92.758271
+INFO:root:[Epoch 9] validation: NMI=65.464511
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 55.756246 NMI: 65.464511
+INFO:root:Epoch 10 learning rate=0.000100
+INFO:root:[Epoch 10] validation: Recall@1=56.684673
+INFO:root:[Epoch 10] validation: Recall@2=68.906144
+INFO:root:[Epoch 10] validation: Recall@4=79.507090
+INFO:root:[Epoch 10] validation: Recall@8=87.592843
+INFO:root:[Epoch 10] validation: Recall@16=92.994598
+INFO:root:[Epoch 10] validation: NMI=64.825864
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 56.684673 NMI: 64.825864
+INFO:root:Epoch 11 learning rate=0.000100
+INFO:root:[Epoch 11] validation: Recall@1=56.532748
+INFO:root:[Epoch 11] validation: Recall@2=69.091830
+INFO:root:[Epoch 11] validation: Recall@4=79.523970
+INFO:root:[Epoch 11] validation: Recall@8=87.390277
+INFO:root:[Epoch 11] validation: Recall@16=92.555706
+INFO:root:[Epoch 11] validation: NMI=65.016701
+INFO:root:Epoch 12 learning rate=0.000050
+INFO:root:[Epoch 12] validation: Recall@1=56.026334
+INFO:root:[Epoch 12] validation: Recall@2=69.007427
+INFO:root:[Epoch 12] validation: Recall@4=79.270763
+INFO:root:[Epoch 12] validation: Recall@8=87.525321
+INFO:root:[Epoch 12] validation: Recall@16=92.876435
+INFO:root:[Epoch 12] validation: NMI=64.438094
+INFO:root:Epoch 13 learning rate=0.000050
+INFO:root:[Epoch 13] validation: Recall@1=57.056043
+INFO:root:[Epoch 13] validation: Recall@2=69.615125
+INFO:root:[Epoch 13] validation: Recall@4=80.536799
+INFO:root:[Epoch 13] validation: Recall@8=87.896691
+INFO:root:[Epoch 13] validation: Recall@16=92.943957
+INFO:root:[Epoch 13] validation: NMI=65.255100
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 57.056043 NMI: 65.255100
+INFO:root:Epoch 14 learning rate=0.000025
+INFO:root:[Epoch 14] validation: Recall@1=56.853477
+INFO:root:[Epoch 14] validation: Recall@2=69.682647
+INFO:root:[Epoch 14] validation: Recall@4=79.810939
+INFO:root:[Epoch 14] validation: Recall@8=87.508440
+INFO:root:[Epoch 14] validation: Recall@16=92.943957
+INFO:root:[Epoch 14] validation: NMI=64.917022
+INFO:root:Epoch 15 learning rate=0.000025
+INFO:root:[Epoch 15] validation: Recall@1=56.937880
+INFO:root:[Epoch 15] validation: Recall@2=69.564483
+INFO:root:[Epoch 15] validation: Recall@4=79.591492
+INFO:root:[Epoch 15] validation: Recall@8=87.626604
+INFO:root:[Epoch 15] validation: Recall@16=93.230925
+INFO:root:[Epoch 15] validation: NMI=65.192958
+INFO:root:Epoch 16 learning rate=0.000013
+INFO:root:[Epoch 16] validation: Recall@1=57.241729
+INFO:root:[Epoch 16] validation: Recall@2=69.378798
+INFO:root:[Epoch 16] validation: Recall@4=79.895341
+INFO:root:[Epoch 16] validation: Recall@8=87.288994
+INFO:root:[Epoch 16] validation: Recall@16=93.163403
+INFO:root:[Epoch 16] validation: NMI=64.799273
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 57.241729 NMI: 64.799273
+INFO:root:Epoch 17 learning rate=0.000013
+INFO:root:[Epoch 17] validation: Recall@1=57.275490
+INFO:root:[Epoch 17] validation: Recall@2=69.969615
+INFO:root:[Epoch 17] validation: Recall@4=79.929102
+INFO:root:[Epoch 17] validation: Recall@8=87.795409
+INFO:root:[Epoch 17] validation: Recall@16=93.416610
+INFO:root:[Epoch 17] validation: NMI=64.976409
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 57.275490 NMI: 64.976409
+INFO:root:Epoch 18 learning rate=0.000006
+INFO:root:[Epoch 18] validation: Recall@1=58.035111
+INFO:root:[Epoch 18] validation: Recall@2=69.986496
+INFO:root:[Epoch 18] validation: Recall@4=80.283592
+INFO:root:[Epoch 18] validation: Recall@8=87.609723
+INFO:root:[Epoch 18] validation: Recall@16=93.264686
+INFO:root:[Epoch 18] validation: NMI=64.639199
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 58.035111 NMI: 64.639199
+INFO:root:Epoch 19 learning rate=0.000006
+INFO:root:[Epoch 19] validation: Recall@1=57.528697
+INFO:root:[Epoch 19] validation: Recall@2=70.037137
+INFO:root:[Epoch 19] validation: Recall@4=80.300473
+INFO:root:[Epoch 19] validation: Recall@8=87.879811
+INFO:root:[Epoch 19] validation: Recall@16=93.062120
+INFO:root:[Epoch 19] validation: NMI=65.199567
+INFO:root:Epoch 20 learning rate=0.000006
+INFO:root:[Epoch 20] validation: Recall@1=57.309251
+INFO:root:[Epoch 20] validation: Recall@2=70.290344
+INFO:root:[Epoch 20] validation: Recall@4=80.114787
+INFO:root:[Epoch 20] validation: Recall@8=87.457799
+INFO:root:[Epoch 20] validation: Recall@16=93.214045
+INFO:root:[Epoch 20] validation: NMI=65.011305
+INFO:root:Epoch 21 learning rate=0.000006
+INFO:root:[Epoch 21] validation: Recall@1=57.494936
+INFO:root:[Epoch 21] validation: Recall@2=70.290344
+INFO:root:[Epoch 21] validation: Recall@4=80.081026
+INFO:root:[Epoch 21] validation: Recall@8=87.727887
+INFO:root:[Epoch 21] validation: Recall@16=93.230925
+INFO:root:[Epoch 21] validation: NMI=65.701423
+INFO:root:Epoch 22 learning rate=0.000006
+INFO:root:[Epoch 22] validation: Recall@1=57.241729
+INFO:root:[Epoch 22] validation: Recall@2=69.969615
+INFO:root:[Epoch 22] validation: Recall@4=79.895341
+INFO:root:[Epoch 22] validation: Recall@8=87.795409
+INFO:root:[Epoch 22] validation: Recall@16=93.163403
+INFO:root:[Epoch 22] validation: NMI=64.992324
+INFO:root:Epoch 23 learning rate=0.000006
+INFO:root:[Epoch 23] validation: Recall@1=57.444294
+INFO:root:[Epoch 23] validation: Recall@2=69.935854
+INFO:root:[Epoch 23] validation: Recall@4=80.030385
+INFO:root:[Epoch 23] validation: Recall@8=87.677245
+INFO:root:[Epoch 23] validation: Recall@16=93.230925
+INFO:root:[Epoch 23] validation: NMI=64.922103
+INFO:root:Epoch 24 learning rate=0.000006
+INFO:root:[Epoch 24] validation: Recall@1=57.309251
+INFO:root:[Epoch 24] validation: Recall@2=70.070898
+INFO:root:[Epoch 24] validation: Recall@4=80.418636
+INFO:root:[Epoch 24] validation: Recall@8=87.694126
+INFO:root:[Epoch 24] validation: Recall@16=93.112762
+INFO:root:[Epoch 24] validation: NMI=64.783347
+INFO:root:Epoch 25 learning rate=0.000006
+INFO:root:[Epoch 25] validation: Recall@1=57.292370
+INFO:root:[Epoch 25] validation: Recall@2=70.037137
+INFO:root:[Epoch 25] validation: Recall@4=79.996624
+INFO:root:[Epoch 25] validation: Recall@8=87.677245
+INFO:root:[Epoch 25] validation: Recall@16=93.062120
+INFO:root:[Epoch 25] validation: NMI=64.928218
+INFO:root:Run 1 finished with 58.035111
+INFO:root:Average validation of 1 runs:
+R@1	R@2	R@4	R@8	R@16	NMI
+58.04	69.99	80.28	87.61	93.26	64.64
+INFO:root:Namespace(batch_size=128, data_path='/DATA/Datasets/CUB_200_2011/', dataset='CUB', decrease_cnn_lr=False, embed_dim=256, epoch_length=200, epochs=25, factor=0.5, gpus=1, kvstore='device', l2reg_weight=0.0005, load_checkpoint=False, lr=0.0001, model='inception-bn', number_of_runs=1, optimizer='adam', same_image_sampling=0.1, save_model_prefix='npairs_model', seed=123, steps='12,14,16,18', symmetric_loss=False, use_crops=False, wd=1e-05)
+INFO:root:Using 1 GPU(s)
+INFO:root:Starting run 1/1
+INFO:root:Epoch 1 learning rate=0.000100
+INFO:root:[Epoch 1] validation: Recall@1=43.332208
+INFO:root:[Epoch 1] validation: Recall@2=56.060095
+INFO:root:[Epoch 1] validation: Recall@4=67.707630
+INFO:root:[Epoch 1] validation: Recall@8=79.186361
+INFO:root:[Epoch 1] validation: Recall@16=88.234301
+INFO:root:[Epoch 1] validation: NMI=58.806600
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 43.332208 NMI: 58.806600
+INFO:root:Epoch 2 learning rate=0.000100
+INFO:root:[Epoch 2] validation: Recall@1=47.653612
+INFO:root:[Epoch 2] validation: Recall@2=61.225523
+INFO:root:[Epoch 2] validation: Recall@4=72.974342
+INFO:root:[Epoch 2] validation: Recall@8=82.714382
+INFO:root:[Epoch 2] validation: Recall@16=90.192438
+INFO:root:[Epoch 2] validation: NMI=61.405025
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 47.653612 NMI: 61.405025
+INFO:root:Epoch 3 learning rate=0.000100
+INFO:root:[Epoch 3] validation: Recall@1=51.114112
+INFO:root:[Epoch 3] validation: Recall@2=64.280891
+INFO:root:[Epoch 3] validation: Recall@4=75.523295
+INFO:root:[Epoch 3] validation: Recall@8=85.162053
+INFO:root:[Epoch 3] validation: Recall@16=91.762323
+INFO:root:[Epoch 3] validation: NMI=62.951764
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 51.114112 NMI: 62.951764
+INFO:root:Epoch 4 learning rate=0.000100
+INFO:root:[Epoch 4] validation: Recall@1=53.376097
+INFO:root:[Epoch 4] validation: Recall@2=66.323430
+INFO:root:[Epoch 4] validation: Recall@4=77.312627
+INFO:root:[Epoch 4] validation: Recall@8=86.174882
+INFO:root:[Epoch 4] validation: Recall@16=92.589467
+INFO:root:[Epoch 4] validation: NMI=63.929277
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 53.376097 NMI: 63.929277
+INFO:root:Epoch 5 learning rate=0.000100
+INFO:root:[Epoch 5] validation: Recall@1=55.384875
+INFO:root:[Epoch 5] validation: Recall@2=68.652937
+INFO:root:[Epoch 5] validation: Recall@4=79.152600
+INFO:root:[Epoch 5] validation: Recall@8=87.407157
+INFO:root:[Epoch 5] validation: Recall@16=93.298447
+INFO:root:[Epoch 5] validation: NMI=65.146913
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 55.384875 NMI: 65.146913
+INFO:root:Epoch 6 learning rate=0.000100
+INFO:root:[Epoch 6] validation: Recall@1=55.756246
+INFO:root:[Epoch 6] validation: Recall@2=69.193113
+INFO:root:[Epoch 6] validation: Recall@4=79.659014
+INFO:root:[Epoch 6] validation: Recall@8=87.255233
+INFO:root:[Epoch 6] validation: Recall@16=93.095881
+INFO:root:[Epoch 6] validation: NMI=65.394350
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 55.756246 NMI: 65.394350
+INFO:root:Epoch 7 learning rate=0.000100
+INFO:root:[Epoch 7] validation: Recall@1=57.731263
+INFO:root:[Epoch 7] validation: Recall@2=70.121540
+INFO:root:[Epoch 7] validation: Recall@4=80.013504
+INFO:root:[Epoch 7] validation: Recall@8=87.711006
+INFO:root:[Epoch 7] validation: Recall@16=93.433491
+INFO:root:[Epoch 7] validation: NMI=65.883646
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 57.731263 NMI: 65.883646
+INFO:root:Epoch 8 learning rate=0.000100
+INFO:root:[Epoch 8] validation: Recall@1=57.680621
+INFO:root:[Epoch 8] validation: Recall@2=69.564483
+INFO:root:[Epoch 8] validation: Recall@4=80.216070
+INFO:root:[Epoch 8] validation: Recall@8=87.862930
+INFO:root:[Epoch 8] validation: Recall@16=93.062120
+INFO:root:[Epoch 8] validation: NMI=66.247836
+INFO:root:Epoch 9 learning rate=0.000100
+INFO:root:[Epoch 9] validation: Recall@1=58.727211
+INFO:root:[Epoch 9] validation: Recall@2=70.746117
+INFO:root:[Epoch 9] validation: Recall@4=80.891290
+INFO:root:[Epoch 9] validation: Recall@8=87.930452
+INFO:root:[Epoch 9] validation: Recall@16=93.180284
+INFO:root:[Epoch 9] validation: NMI=66.437544
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 58.727211 NMI: 66.437544
+INFO:root:Epoch 10 learning rate=0.000100
+INFO:root:[Epoch 10] validation: Recall@1=59.756921
+INFO:root:[Epoch 10] validation: Recall@2=70.695476
+INFO:root:[Epoch 10] validation: Recall@4=81.076975
+INFO:root:[Epoch 10] validation: Recall@8=88.419986
+INFO:root:[Epoch 10] validation: Recall@16=93.450371
+INFO:root:[Epoch 10] validation: NMI=65.896067
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 59.756921 NMI: 65.896067
+INFO:root:Epoch 11 learning rate=0.000100
+INFO:root:[Epoch 11] validation: Recall@1=58.828494
+INFO:root:[Epoch 11] validation: Recall@2=71.134369
+INFO:root:[Epoch 11] validation: Recall@4=81.212019
+INFO:root:[Epoch 11] validation: Recall@8=88.977043
+INFO:root:[Epoch 11] validation: Recall@16=93.872384
+INFO:root:[Epoch 11] validation: NMI=66.094984
+INFO:root:Epoch 12 learning rate=0.000050
+INFO:root:[Epoch 12] validation: Recall@1=59.537475
+INFO:root:[Epoch 12] validation: Recall@2=71.471978
+INFO:root:[Epoch 12] validation: Recall@4=81.245780
+INFO:root:[Epoch 12] validation: Recall@8=88.555030
+INFO:root:[Epoch 12] validation: Recall@16=93.855503
+INFO:root:[Epoch 12] validation: NMI=66.579862
+INFO:root:Epoch 13 learning rate=0.000050
+INFO:root:[Epoch 13] validation: Recall@1=59.469953
+INFO:root:[Epoch 13] validation: Recall@2=71.809588
+INFO:root:[Epoch 13] validation: Recall@4=81.228899
+INFO:root:[Epoch 13] validation: Recall@8=88.521269
+INFO:root:[Epoch 13] validation: Recall@16=93.450371
+INFO:root:[Epoch 13] validation: NMI=66.903032
+INFO:root:Epoch 14 learning rate=0.000025
+INFO:root:[Epoch 14] validation: Recall@1=59.267387
+INFO:root:[Epoch 14] validation: Recall@2=70.796759
+INFO:root:[Epoch 14] validation: Recall@4=81.178258
+INFO:root:[Epoch 14] validation: Recall@8=88.369345
+INFO:root:[Epoch 14] validation: Recall@16=93.568535
+INFO:root:[Epoch 14] validation: NMI=67.011413
+INFO:root:Epoch 15 learning rate=0.000025
+INFO:root:[Epoch 15] validation: Recall@1=59.554355
+INFO:root:[Epoch 15] validation: Recall@2=71.134369
+INFO:root:[Epoch 15] validation: Recall@4=80.452397
+INFO:root:[Epoch 15] validation: Recall@8=88.031735
+INFO:root:[Epoch 15] validation: Recall@16=93.686698
+INFO:root:[Epoch 15] validation: NMI=67.396649
+INFO:root:Epoch 16 learning rate=0.000013
+INFO:root:[Epoch 16] validation: Recall@1=59.858204
+INFO:root:[Epoch 16] validation: Recall@2=71.185010
+INFO:root:[Epoch 16] validation: Recall@4=80.503038
+INFO:root:[Epoch 16] validation: Recall@8=88.149899
+INFO:root:[Epoch 16] validation: Recall@16=93.450371
+INFO:root:[Epoch 16] validation: NMI=67.198775
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 59.858204 NMI: 67.198775
+INFO:root:Epoch 17 learning rate=0.000013
+INFO:root:[Epoch 17] validation: Recall@1=60.027009
+INFO:root:[Epoch 17] validation: Recall@2=71.742066
+INFO:root:[Epoch 17] validation: Recall@4=80.958812
+INFO:root:[Epoch 17] validation: Recall@8=88.487508
+INFO:root:[Epoch 17] validation: Recall@16=93.652937
+INFO:root:[Epoch 17] validation: NMI=67.576148
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 60.027009 NMI: 67.576148
+INFO:root:Epoch 18 learning rate=0.000006
+INFO:root:[Epoch 18] validation: Recall@1=59.419311
+INFO:root:[Epoch 18] validation: Recall@2=71.252532
+INFO:root:[Epoch 18] validation: Recall@4=81.009453
+INFO:root:[Epoch 18] validation: Recall@8=88.268062
+INFO:root:[Epoch 18] validation: Recall@16=93.602296
+INFO:root:[Epoch 18] validation: NMI=67.599139
+INFO:root:Epoch 19 learning rate=0.000006
+INFO:root:[Epoch 19] validation: Recall@1=59.655638
+INFO:root:[Epoch 19] validation: Recall@2=70.931803
+INFO:root:[Epoch 19] validation: Recall@4=81.076975
+INFO:root:[Epoch 19] validation: Recall@8=88.555030
+INFO:root:[Epoch 19] validation: Recall@16=93.501013
+INFO:root:[Epoch 19] validation: NMI=67.288270
+INFO:root:Epoch 20 learning rate=0.000006
+INFO:root:[Epoch 20] validation: Recall@1=59.773801
+INFO:root:[Epoch 20] validation: Recall@2=71.674544
+INFO:root:[Epoch 20] validation: Recall@4=81.043214
+INFO:root:[Epoch 20] validation: Recall@8=87.862930
+INFO:root:[Epoch 20] validation: Recall@16=93.534774
+INFO:root:[Epoch 20] validation: NMI=67.095665
+INFO:root:Epoch 21 learning rate=0.000006
+INFO:root:[Epoch 21] validation: Recall@1=59.284267
+INFO:root:[Epoch 21] validation: Recall@2=71.252532
+INFO:root:[Epoch 21] validation: Recall@4=81.009453
+INFO:root:[Epoch 21] validation: Recall@8=88.048616
+INFO:root:[Epoch 21] validation: Recall@16=93.230925
+INFO:root:[Epoch 21] validation: NMI=65.980562
+INFO:root:Epoch 22 learning rate=0.000006
+INFO:root:[Epoch 22] validation: Recall@1=59.604997
+INFO:root:[Epoch 22] validation: Recall@2=71.252532
+INFO:root:[Epoch 22] validation: Recall@4=80.401756
+INFO:root:[Epoch 22] validation: Recall@8=88.065496
+INFO:root:[Epoch 22] validation: Recall@16=93.416610
+INFO:root:[Epoch 22] validation: NMI=67.222269
+INFO:root:Epoch 23 learning rate=0.000006
+INFO:root:[Epoch 23] validation: Recall@1=59.554355
+INFO:root:[Epoch 23] validation: Recall@2=71.117488
+INFO:root:[Epoch 23] validation: Recall@4=81.110736
+INFO:root:[Epoch 23] validation: Recall@8=88.487508
+INFO:root:[Epoch 23] validation: Recall@16=93.568535
+INFO:root:[Epoch 23] validation: NMI=67.143504
+INFO:root:Epoch 24 learning rate=0.000006
+INFO:root:[Epoch 24] validation: Recall@1=59.740041
+INFO:root:[Epoch 24] validation: Recall@2=70.965564
+INFO:root:[Epoch 24] validation: Recall@4=80.874409
+INFO:root:[Epoch 24] validation: Recall@8=88.470628
+INFO:root:[Epoch 24] validation: Recall@16=93.703579
+INFO:root:[Epoch 24] validation: NMI=67.182477
+INFO:root:Epoch 25 learning rate=0.000006
+INFO:root:[Epoch 25] validation: Recall@1=60.010128
+INFO:root:[Epoch 25] validation: Recall@2=71.168130
+INFO:root:[Epoch 25] validation: Recall@4=80.874409
+INFO:root:[Epoch 25] validation: Recall@8=88.335584
+INFO:root:[Epoch 25] validation: Recall@16=93.602296
+INFO:root:[Epoch 25] validation: NMI=67.075355
+INFO:root:Run 1 finished with 60.027009
+INFO:root:Average validation of 1 runs:
+R@1	R@2	R@4	R@8	R@16	NMI
+60.03	71.74	80.96	88.49	93.65	67.58
+INFO:root:Namespace(batch_size=128, data_path='/DATA/Datasets/CUB_200_2011/', dataset='CUB', decrease_cnn_lr=False, embed_dim=512, epoch_length=200, epochs=25, factor=0.5, gpus=1, kvstore='device', l2reg_weight=0.0005, load_checkpoint=False, lr=0.0001, model='inception-bn', number_of_runs=1, optimizer='adam', same_image_sampling=0.1, save_model_prefix='npairs_model', seed=123, steps='12,14,16,18', symmetric_loss=False, use_crops=False, wd=1e-05)
+INFO:root:Using 1 GPU(s)
+INFO:root:Starting run 1/1
+INFO:root:Epoch 1 learning rate=0.000100
+INFO:root:[Epoch 1] validation: Recall@1=42.251857
+INFO:root:[Epoch 1] validation: Recall@2=55.587441
+INFO:root:[Epoch 1] validation: Recall@4=67.876435
+INFO:root:[Epoch 1] validation: Recall@8=79.186361
+INFO:root:[Epoch 1] validation: Recall@16=87.744767
+INFO:root:[Epoch 1] validation: NMI=58.769728
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 42.251857 NMI: 58.769728
+INFO:root:Epoch 2 learning rate=0.000100
+INFO:root:[Epoch 2] validation: Recall@1=46.218771
+INFO:root:[Epoch 2] validation: Recall@2=59.385550
+INFO:root:[Epoch 2] validation: Recall@4=71.623903
+INFO:root:[Epoch 2] validation: Recall@8=82.039163
+INFO:root:[Epoch 2] validation: Recall@16=89.061445
+INFO:root:[Epoch 2] validation: NMI=61.060656
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 46.218771 NMI: 61.060656
+INFO:root:Epoch 3 learning rate=0.000100
+INFO:root:[Epoch 3] validation: Recall@1=50.270088
+INFO:root:[Epoch 3] validation: Recall@2=63.301823
+INFO:root:[Epoch 3] validation: Recall@4=75.118163
+INFO:root:[Epoch 3] validation: Recall@8=84.453072
+INFO:root:[Epoch 3] validation: Recall@16=91.424713
+INFO:root:[Epoch 3] validation: NMI=63.187951
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 50.270088 NMI: 63.187951
+INFO:root:Epoch 4 learning rate=0.000100
+INFO:root:[Epoch 4] validation: Recall@1=52.903444
+INFO:root:[Epoch 4] validation: Recall@2=65.918298
+INFO:root:[Epoch 4] validation: Recall@4=77.042539
+INFO:root:[Epoch 4] validation: Recall@8=85.972316
+INFO:root:[Epoch 4] validation: Recall@16=92.234976
+INFO:root:[Epoch 4] validation: NMI=64.488665
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 52.903444 NMI: 64.488665
+INFO:root:Epoch 5 learning rate=0.000100
+INFO:root:[Epoch 5] validation: Recall@1=54.625253
+INFO:root:[Epoch 5] validation: Recall@2=68.011479
+INFO:root:[Epoch 5] validation: Recall@4=78.612424
+INFO:root:[Epoch 5] validation: Recall@8=86.715057
+INFO:root:[Epoch 5] validation: Recall@16=92.640108
+INFO:root:[Epoch 5] validation: NMI=65.445713
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 54.625253 NMI: 65.445713
+INFO:root:Epoch 6 learning rate=0.000100
+INFO:root:[Epoch 6] validation: Recall@1=55.891290
+INFO:root:[Epoch 6] validation: Recall@2=68.399730
+INFO:root:[Epoch 6] validation: Recall@4=78.578663
+INFO:root:[Epoch 6] validation: Recall@8=86.799460
+INFO:root:[Epoch 6] validation: Recall@16=93.045240
+INFO:root:[Epoch 6] validation: NMI=64.771865
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 55.891290 NMI: 64.771865
+INFO:root:Epoch 7 learning rate=0.000100
+INFO:root:[Epoch 7] validation: Recall@1=57.005402
+INFO:root:[Epoch 7] validation: Recall@2=69.767049
+INFO:root:[Epoch 7] validation: Recall@4=79.996624
+INFO:root:[Epoch 7] validation: Recall@8=87.812289
+INFO:root:[Epoch 7] validation: Recall@16=93.197164
+INFO:root:[Epoch 7] validation: NMI=66.709566
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 57.005402 NMI: 66.709566
+INFO:root:Epoch 8 learning rate=0.000100
+INFO:root:[Epoch 8] validation: Recall@1=57.393653
+INFO:root:[Epoch 8] validation: Recall@2=70.256583
+INFO:root:[Epoch 8] validation: Recall@4=80.452397
+INFO:root:[Epoch 8] validation: Recall@8=88.200540
+INFO:root:[Epoch 8] validation: Recall@16=93.737340
+INFO:root:[Epoch 8] validation: NMI=66.570109
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 57.393653 NMI: 66.570109
+INFO:root:Epoch 9 learning rate=0.000100
+INFO:root:[Epoch 9] validation: Recall@1=58.372721
+INFO:root:[Epoch 9] validation: Recall@2=70.239703
+INFO:root:[Epoch 9] validation: Recall@4=80.722485
+INFO:root:[Epoch 9] validation: Recall@8=88.200540
+INFO:root:[Epoch 9] validation: Recall@16=93.349088
+INFO:root:[Epoch 9] validation: NMI=65.886134
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 58.372721 NMI: 65.886134
+INFO:root:Epoch 10 learning rate=0.000100
+INFO:root:[Epoch 10] validation: Recall@1=58.254558
+INFO:root:[Epoch 10] validation: Recall@2=70.357866
+INFO:root:[Epoch 10] validation: Recall@4=80.064146
+INFO:root:[Epoch 10] validation: Recall@8=87.812289
+INFO:root:[Epoch 10] validation: Recall@16=93.146523
+INFO:root:[Epoch 10] validation: NMI=66.837006
+INFO:root:Epoch 11 learning rate=0.000100
+INFO:root:[Epoch 11] validation: Recall@1=58.575287
+INFO:root:[Epoch 11] validation: Recall@2=70.408508
+INFO:root:[Epoch 11] validation: Recall@4=80.790007
+INFO:root:[Epoch 11] validation: Recall@8=88.133018
+INFO:root:[Epoch 11] validation: Recall@16=93.332208
+INFO:root:[Epoch 11] validation: NMI=67.195906
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 58.575287 NMI: 67.195906
+INFO:root:Epoch 12 learning rate=0.000050
+INFO:root:[Epoch 12] validation: Recall@1=58.828494
+INFO:root:[Epoch 12] validation: Recall@2=70.678596
+INFO:root:[Epoch 12] validation: Recall@4=80.587441
+INFO:root:[Epoch 12] validation: Recall@8=88.099257
+INFO:root:[Epoch 12] validation: Recall@16=93.281567
+INFO:root:[Epoch 12] validation: NMI=66.491439
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 58.828494 NMI: 66.491439
+INFO:root:Epoch 13 learning rate=0.000050
+INFO:root:[Epoch 13] validation: Recall@1=59.740041
+INFO:root:[Epoch 13] validation: Recall@2=71.590142
+INFO:root:[Epoch 13] validation: Recall@4=81.262660
+INFO:root:[Epoch 13] validation: Recall@8=88.740716
+INFO:root:[Epoch 13] validation: Recall@16=93.433491
+INFO:root:[Epoch 13] validation: NMI=67.064561
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 59.740041 NMI: 67.064561
+INFO:root:Epoch 14 learning rate=0.000025
+INFO:root:[Epoch 14] validation: Recall@1=59.436192
+INFO:root:[Epoch 14] validation: Recall@2=71.269413
+INFO:root:[Epoch 14] validation: Recall@4=80.739365
+INFO:root:[Epoch 14] validation: Recall@8=88.335584
+INFO:root:[Epoch 14] validation: Recall@16=93.484132
+INFO:root:[Epoch 14] validation: NMI=67.700513
+INFO:root:Epoch 15 learning rate=0.000025
+INFO:root:[Epoch 15] validation: Recall@1=59.891965
+INFO:root:[Epoch 15] validation: Recall@2=71.421337
+INFO:root:[Epoch 15] validation: Recall@4=81.178258
+INFO:root:[Epoch 15] validation: Recall@8=87.997974
+INFO:root:[Epoch 15] validation: Recall@16=93.501013
+INFO:root:[Epoch 15] validation: NMI=67.688250
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 59.891965 NMI: 67.688250
+INFO:root:Epoch 16 learning rate=0.000013
+INFO:root:[Epoch 16] validation: Recall@1=59.942606
+INFO:root:[Epoch 16] validation: Recall@2=71.623903
+INFO:root:[Epoch 16] validation: Recall@4=80.941931
+INFO:root:[Epoch 16] validation: Recall@8=88.605672
+INFO:root:[Epoch 16] validation: Recall@16=93.568535
+INFO:root:[Epoch 16] validation: NMI=66.698684
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 59.942606 NMI: 66.698684
+INFO:root:Epoch 17 learning rate=0.000013
+INFO:root:[Epoch 17] validation: Recall@1=60.381499
+INFO:root:[Epoch 17] validation: Recall@2=71.792708
+INFO:root:[Epoch 17] validation: Recall@4=81.397704
+INFO:root:[Epoch 17] validation: Recall@8=88.706955
+INFO:root:[Epoch 17] validation: Recall@16=93.602296
+INFO:root:[Epoch 17] validation: NMI=67.931702
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 60.381499 NMI: 67.931702
+INFO:root:Epoch 18 learning rate=0.000006
+INFO:root:[Epoch 18] validation: Recall@1=60.145172
+INFO:root:[Epoch 18] validation: Recall@2=71.893991
+INFO:root:[Epoch 18] validation: Recall@4=81.515868
+INFO:root:[Epoch 18] validation: Recall@8=88.538150
+INFO:root:[Epoch 18] validation: Recall@16=93.298447
+INFO:root:[Epoch 18] validation: NMI=67.157623
+INFO:root:Epoch 19 learning rate=0.000006
+INFO:root:[Epoch 19] validation: Recall@1=59.993248
+INFO:root:[Epoch 19] validation: Recall@2=71.944632
+INFO:root:[Epoch 19] validation: Recall@4=81.127616
+INFO:root:[Epoch 19] validation: Recall@8=88.588791
+INFO:root:[Epoch 19] validation: Recall@16=93.517893
+INFO:root:[Epoch 19] validation: NMI=66.675072
+INFO:root:Epoch 20 learning rate=0.000006
+INFO:root:[Epoch 20] validation: Recall@1=60.347738
+INFO:root:[Epoch 20] validation: Recall@2=71.961512
+INFO:root:[Epoch 20] validation: Recall@4=81.279541
+INFO:root:[Epoch 20] validation: Recall@8=88.706955
+INFO:root:[Epoch 20] validation: Recall@16=93.602296
+INFO:root:[Epoch 20] validation: NMI=66.623623
+INFO:root:Epoch 21 learning rate=0.000006
+INFO:root:[Epoch 21] validation: Recall@1=59.976367
+INFO:root:[Epoch 21] validation: Recall@2=72.366644
+INFO:root:[Epoch 21] validation: Recall@4=81.380824
+INFO:root:[Epoch 21] validation: Recall@8=88.757596
+INFO:root:[Epoch 21] validation: Recall@16=93.686698
+INFO:root:[Epoch 21] validation: NMI=66.728278
+INFO:root:Epoch 22 learning rate=0.000006
+INFO:root:[Epoch 22] validation: Recall@1=60.060770
+INFO:root:[Epoch 22] validation: Recall@2=71.758947
+INFO:root:[Epoch 22] validation: Recall@4=81.076975
+INFO:root:[Epoch 22] validation: Recall@8=88.436867
+INFO:root:[Epoch 22] validation: Recall@16=93.686698
+INFO:root:[Epoch 22] validation: NMI=67.989723
+INFO:root:Epoch 23 learning rate=0.000006
+INFO:root:[Epoch 23] validation: Recall@1=60.027009
+INFO:root:[Epoch 23] validation: Recall@2=72.079676
+INFO:root:[Epoch 23] validation: Recall@4=81.600270
+INFO:root:[Epoch 23] validation: Recall@8=88.673194
+INFO:root:[Epoch 23] validation: Recall@16=93.737340
+INFO:root:[Epoch 23] validation: NMI=66.310643
+INFO:root:Epoch 24 learning rate=0.000006
+INFO:root:[Epoch 24] validation: Recall@1=60.246455
+INFO:root:[Epoch 24] validation: Recall@2=72.197839
+INFO:root:[Epoch 24] validation: Recall@4=81.347063
+INFO:root:[Epoch 24] validation: Recall@8=88.504389
+INFO:root:[Epoch 24] validation: Recall@16=93.450371
+INFO:root:[Epoch 24] validation: NMI=66.651537
+INFO:root:Epoch 25 learning rate=0.000006
+INFO:root:[Epoch 25] validation: Recall@1=60.280216
+INFO:root:[Epoch 25] validation: Recall@2=72.045915
+INFO:root:[Epoch 25] validation: Recall@4=81.313302
+INFO:root:[Epoch 25] validation: Recall@8=88.436867
+INFO:root:[Epoch 25] validation: Recall@16=93.484132
+INFO:root:[Epoch 25] validation: NMI=67.392025
+INFO:root:Run 1 finished with 60.381499
+INFO:root:Average validation of 1 runs:
+R@1	R@2	R@4	R@8	R@16	NMI
+60.38	71.79	81.40	88.71	93.60	67.93
+INFO:root:Namespace(batch_size=128, data_path='/DATA/Datasets/CUB_200_2011/', dataset='CUB', decrease_cnn_lr=False, embed_dim=1024, epoch_length=200, epochs=25, factor=0.5, gpus=1, kvstore='device', l2reg_weight=0.0005, load_checkpoint=False, lr=0.0001, model='inception-bn', number_of_runs=1, optimizer='adam', same_image_sampling=0.1, save_model_prefix='npairs_model', seed=123, steps='12,14,16,18', symmetric_loss=False, use_crops=False, wd=1e-05)
+INFO:root:Using 1 GPU(s)
+INFO:root:Starting run 1/1
+INFO:root:Epoch 1 learning rate=0.000100
+INFO:root:[Epoch 1] validation: Recall@1=41.289669
+INFO:root:[Epoch 1] validation: Recall@2=54.490209
+INFO:root:[Epoch 1] validation: Recall@4=66.998650
+INFO:root:[Epoch 1] validation: Recall@8=78.325456
+INFO:root:[Epoch 1] validation: Recall@16=87.424038
+INFO:root:[Epoch 1] validation: NMI=57.855971
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 41.289669 NMI: 57.855971
+INFO:root:Epoch 2 learning rate=0.000100
+INFO:root:[Epoch 2] validation: Recall@1=43.281567
+INFO:root:[Epoch 2] validation: Recall@2=55.536799
+INFO:root:[Epoch 2] validation: Recall@4=67.690749
+INFO:root:[Epoch 2] validation: Recall@8=78.865631
+INFO:root:[Epoch 2] validation: Recall@16=87.457799
+INFO:root:[Epoch 2] validation: NMI=59.685872
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 43.281567 NMI: 59.685872
+INFO:root:Epoch 3 learning rate=0.000100
+INFO:root:[Epoch 3] validation: Recall@1=47.856178
+INFO:root:[Epoch 3] validation: Recall@2=60.550304
+INFO:root:[Epoch 3] validation: Recall@4=72.316003
+INFO:root:[Epoch 3] validation: Recall@8=82.174207
+INFO:root:[Epoch 3] validation: Recall@16=89.466577
+INFO:root:[Epoch 3] validation: NMI=61.484075
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 47.856178 NMI: 61.484075
+INFO:root:Epoch 4 learning rate=0.000100
+INFO:root:[Epoch 4] validation: Recall@1=49.983120
+INFO:root:[Epoch 4] validation: Recall@2=63.251182
+INFO:root:[Epoch 4] validation: Recall@4=75.320729
+INFO:root:[Epoch 4] validation: Recall@8=83.896016
+INFO:root:[Epoch 4] validation: Recall@16=90.985820
+INFO:root:[Epoch 4] validation: NMI=63.250091
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 49.983120 NMI: 63.250091
+INFO:root:Epoch 5 learning rate=0.000100
+INFO:root:[Epoch 5] validation: Recall@1=53.257934
+INFO:root:[Epoch 5] validation: Recall@2=65.698852
+INFO:root:[Epoch 5] validation: Recall@4=76.890614
+INFO:root:[Epoch 5] validation: Recall@8=85.786631
+INFO:root:[Epoch 5] validation: Recall@16=92.116813
+INFO:root:[Epoch 5] validation: NMI=64.407456
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 53.257934 NMI: 64.407456
+INFO:root:Epoch 6 learning rate=0.000100
+INFO:root:[Epoch 6] validation: Recall@1=54.405807
+INFO:root:[Epoch 6] validation: Recall@2=66.745442
+INFO:root:[Epoch 6] validation: Recall@4=77.869683
+INFO:root:[Epoch 6] validation: Recall@8=86.394328
+INFO:root:[Epoch 6] validation: Recall@16=92.640108
+INFO:root:[Epoch 6] validation: NMI=64.192332
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 54.405807 NMI: 64.192332
+INFO:root:Epoch 7 learning rate=0.000100
+INFO:root:[Epoch 7] validation: Recall@1=55.671843
+INFO:root:[Epoch 7] validation: Recall@2=68.197164
+INFO:root:[Epoch 7] validation: Recall@4=78.528022
+INFO:root:[Epoch 7] validation: Recall@8=87.170831
+INFO:root:[Epoch 7] validation: Recall@16=93.045240
+INFO:root:[Epoch 7] validation: NMI=64.548885
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 55.671843 NMI: 64.548885
+INFO:root:Epoch 8 learning rate=0.000100
+INFO:root:[Epoch 8] validation: Recall@1=55.503038
+INFO:root:[Epoch 8] validation: Recall@2=68.011479
+INFO:root:[Epoch 8] validation: Recall@4=78.764348
+INFO:root:[Epoch 8] validation: Recall@8=86.900743
+INFO:root:[Epoch 8] validation: Recall@16=92.842674
+INFO:root:[Epoch 8] validation: NMI=64.742049
+INFO:root:Epoch 9 learning rate=0.000100
+INFO:root:[Epoch 9] validation: Recall@1=57.258609
+INFO:root:[Epoch 9] validation: Recall@2=69.446320
+INFO:root:[Epoch 9] validation: Recall@4=79.743417
+INFO:root:[Epoch 9] validation: Recall@8=87.153950
+INFO:root:[Epoch 9] validation: Recall@16=93.298447
+INFO:root:[Epoch 9] validation: NMI=65.810912
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 57.258609 NMI: 65.810912
+INFO:root:Epoch 10 learning rate=0.000100
+INFO:root:[Epoch 10] validation: Recall@1=56.870358
+INFO:root:[Epoch 10] validation: Recall@2=68.720459
+INFO:root:[Epoch 10] validation: Recall@4=79.507090
+INFO:root:[Epoch 10] validation: Recall@8=87.812289
+INFO:root:[Epoch 10] validation: Recall@16=93.112762
+INFO:root:[Epoch 10] validation: NMI=66.269680
+INFO:root:Epoch 11 learning rate=0.000100
+INFO:root:[Epoch 11] validation: Recall@1=57.359892
+INFO:root:[Epoch 11] validation: Recall@2=69.665766
+INFO:root:[Epoch 11] validation: Recall@4=80.047265
+INFO:root:[Epoch 11] validation: Recall@8=87.643484
+INFO:root:[Epoch 11] validation: Recall@16=93.382849
+INFO:root:[Epoch 11] validation: NMI=64.937452
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 57.359892 NMI: 64.937452
+INFO:root:Epoch 12 learning rate=0.000050
+INFO:root:[Epoch 12] validation: Recall@1=57.613099
+INFO:root:[Epoch 12] validation: Recall@2=69.918974
+INFO:root:[Epoch 12] validation: Recall@4=80.351114
+INFO:root:[Epoch 12] validation: Recall@8=87.930452
+INFO:root:[Epoch 12] validation: Recall@16=93.197164
+INFO:root:[Epoch 12] validation: NMI=64.950572
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 57.613099 NMI: 64.950572
+INFO:root:Epoch 13 learning rate=0.000050
+INFO:root:[Epoch 13] validation: Recall@1=58.203916
+INFO:root:[Epoch 13] validation: Recall@2=71.016205
+INFO:root:[Epoch 13] validation: Recall@4=80.367995
+INFO:root:[Epoch 13] validation: Recall@8=88.251182
+INFO:root:[Epoch 13] validation: Recall@16=93.264686
+INFO:root:[Epoch 13] validation: NMI=65.104858
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 58.203916 NMI: 65.104858
+INFO:root:Epoch 14 learning rate=0.000025
+INFO:root:[Epoch 14] validation: Recall@1=57.579338
+INFO:root:[Epoch 14] validation: Recall@2=70.459149
+INFO:root:[Epoch 14] validation: Recall@4=80.519919
+INFO:root:[Epoch 14] validation: Recall@8=88.335584
+INFO:root:[Epoch 14] validation: Recall@16=93.568535
+INFO:root:[Epoch 14] validation: NMI=66.480550
+INFO:root:Epoch 15 learning rate=0.000025
+INFO:root:[Epoch 15] validation: Recall@1=57.933828
+INFO:root:[Epoch 15] validation: Recall@2=70.172181
+INFO:root:[Epoch 15] validation: Recall@4=80.367995
+INFO:root:[Epoch 15] validation: Recall@8=88.301823
+INFO:root:[Epoch 15] validation: Recall@16=93.129642
+INFO:root:[Epoch 15] validation: NMI=65.887322
+INFO:root:Epoch 16 learning rate=0.000013
+INFO:root:[Epoch 16] validation: Recall@1=58.136394
+INFO:root:[Epoch 16] validation: Recall@2=70.813639
+INFO:root:[Epoch 16] validation: Recall@4=80.790007
+INFO:root:[Epoch 16] validation: Recall@8=88.588791
+INFO:root:[Epoch 16] validation: Recall@16=93.315327
+INFO:root:[Epoch 16] validation: NMI=65.383705
+INFO:root:Epoch 17 learning rate=0.000013
+INFO:root:[Epoch 17] validation: Recall@1=58.355841
+INFO:root:[Epoch 17] validation: Recall@2=70.307225
+INFO:root:[Epoch 17] validation: Recall@4=80.739365
+INFO:root:[Epoch 17] validation: Recall@8=88.588791
+INFO:root:[Epoch 17] validation: Recall@16=93.619176
+INFO:root:[Epoch 17] validation: NMI=66.439257
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 58.355841 NMI: 66.439257
+INFO:root:Epoch 18 learning rate=0.000006
+INFO:root:[Epoch 18] validation: Recall@1=58.153275
+INFO:root:[Epoch 18] validation: Recall@2=70.762998
+INFO:root:[Epoch 18] validation: Recall@4=80.891290
+INFO:root:[Epoch 18] validation: Recall@8=88.555030
+INFO:root:[Epoch 18] validation: Recall@16=93.720459
+INFO:root:[Epoch 18] validation: NMI=66.240928
+INFO:root:Epoch 19 learning rate=0.000006
+INFO:root:[Epoch 19] validation: Recall@1=58.440243
+INFO:root:[Epoch 19] validation: Recall@2=70.594193
+INFO:root:[Epoch 19] validation: Recall@4=81.144497
+INFO:root:[Epoch 19] validation: Recall@8=88.436867
+INFO:root:[Epoch 19] validation: Recall@16=93.602296
+INFO:root:[Epoch 19] validation: NMI=66.747578
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 58.440243 NMI: 66.747578
+INFO:root:Epoch 20 learning rate=0.000006
+INFO:root:[Epoch 20] validation: Recall@1=58.575287
+INFO:root:[Epoch 20] validation: Recall@2=70.729237
+INFO:root:[Epoch 20] validation: Recall@4=80.992573
+INFO:root:[Epoch 20] validation: Recall@8=88.774477
+INFO:root:[Epoch 20] validation: Recall@16=93.737340
+INFO:root:[Epoch 20] validation: NMI=66.535553
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 58.575287 NMI: 66.535553
+INFO:root:Epoch 21 learning rate=0.000006
+INFO:root:[Epoch 21] validation: Recall@1=58.170155
+INFO:root:[Epoch 21] validation: Recall@2=70.476030
+INFO:root:[Epoch 21] validation: Recall@4=80.941931
+INFO:root:[Epoch 21] validation: Recall@8=88.200540
+INFO:root:[Epoch 21] validation: Recall@16=93.636057
+INFO:root:[Epoch 21] validation: NMI=66.917179
+INFO:root:Epoch 22 learning rate=0.000006
+INFO:root:[Epoch 22] validation: Recall@1=58.575287
+INFO:root:[Epoch 22] validation: Recall@2=70.492910
+INFO:root:[Epoch 22] validation: Recall@4=80.806887
+INFO:root:[Epoch 22] validation: Recall@8=88.268062
+INFO:root:[Epoch 22] validation: Recall@16=93.602296
+INFO:root:[Epoch 22] validation: NMI=67.020505
+INFO:root:Epoch 23 learning rate=0.000006
+INFO:root:[Epoch 23] validation: Recall@1=58.693450
+INFO:root:[Epoch 23] validation: Recall@2=71.049966
+INFO:root:[Epoch 23] validation: Recall@4=81.178258
+INFO:root:[Epoch 23] validation: Recall@8=88.200540
+INFO:root:[Epoch 23] validation: Recall@16=93.416610
+INFO:root:[Epoch 23] validation: NMI=66.277964
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 58.693450 NMI: 66.277964
+INFO:root:Epoch 24 learning rate=0.000006
+INFO:root:[Epoch 24] validation: Recall@1=58.862255
+INFO:root:[Epoch 24] validation: Recall@2=70.796759
+INFO:root:[Epoch 24] validation: Recall@4=81.431465
+INFO:root:[Epoch 24] validation: Recall@8=88.588791
+INFO:root:[Epoch 24] validation: Recall@16=93.872384
+INFO:root:[Epoch 24] validation: NMI=66.845374
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 58.862255 NMI: 66.845374
+INFO:root:Epoch 25 learning rate=0.000006
+INFO:root:[Epoch 25] validation: Recall@1=58.558406
+INFO:root:[Epoch 25] validation: Recall@2=70.644835
+INFO:root:[Epoch 25] validation: Recall@4=80.790007
+INFO:root:[Epoch 25] validation: Recall@8=88.200540
+INFO:root:[Epoch 25] validation: Recall@16=93.652937
+INFO:root:[Epoch 25] validation: NMI=67.211542
+INFO:root:Run 1 finished with 58.862255
+INFO:root:Average validation of 1 runs:
+R@1	R@2	R@4	R@8	R@16	NMI
+58.86	70.80	81.43	88.59	93.87	66.85
+INFO:root:Namespace(batch_size=128, data_path='/DATA/Datasets/CUB_200_2011/', dataset='CUB', decrease_cnn_lr=False, embed_dim=2048, epoch_length=200, epochs=25, factor=0.5, gpus=1, kvstore='device', l2reg_weight=0.0005, load_checkpoint=False, lr=0.0001, model='inception-bn', number_of_runs=1, optimizer='adam', same_image_sampling=0.1, save_model_prefix='npairs_model', seed=123, steps='12,14,16,18', symmetric_loss=False, use_crops=False, wd=1e-05)
+INFO:root:Using 1 GPU(s)
+INFO:root:Starting run 1/1
+INFO:root:Epoch 1 learning rate=0.000100
+INFO:root:[Epoch 1] validation: Recall@1=42.201215
+INFO:root:[Epoch 1] validation: Recall@2=54.439568
+INFO:root:[Epoch 1] validation: Recall@4=66.981769
+INFO:root:[Epoch 1] validation: Recall@8=78.409858
+INFO:root:[Epoch 1] validation: Recall@16=87.288994
+INFO:root:[Epoch 1] validation: NMI=59.245212
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 42.201215 NMI: 59.245212
+INFO:root:Epoch 2 learning rate=0.000100
+INFO:root:[Epoch 2] validation: Recall@1=40.614450
+INFO:root:[Epoch 2] validation: Recall@2=53.021607
+INFO:root:[Epoch 2] validation: Recall@4=65.327481
+INFO:root:[Epoch 2] validation: Recall@8=76.586766
+INFO:root:[Epoch 2] validation: Recall@16=86.411209
+INFO:root:[Epoch 2] validation: NMI=59.844618
+INFO:root:Epoch 3 learning rate=0.000100
+INFO:root:[Epoch 3] validation: Recall@1=46.201891
+INFO:root:[Epoch 3] validation: Recall@2=58.558406
+INFO:root:[Epoch 3] validation: Recall@4=70.594193
+INFO:root:[Epoch 3] validation: Recall@8=80.705604
+INFO:root:[Epoch 3] validation: Recall@16=89.500338
+INFO:root:[Epoch 3] validation: NMI=60.882001
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 46.201891 NMI: 60.882001
+INFO:root:Epoch 4 learning rate=0.000100
+INFO:root:[Epoch 4] validation: Recall@1=48.446995
+INFO:root:[Epoch 4] validation: Recall@2=60.955436
+INFO:root:[Epoch 4] validation: Recall@4=72.957461
+INFO:root:[Epoch 4] validation: Recall@8=82.916948
+INFO:root:[Epoch 4] validation: Recall@16=90.513167
+INFO:root:[Epoch 4] validation: NMI=63.024664
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 48.446995 NMI: 63.024664
+INFO:root:Epoch 5 learning rate=0.000100
+INFO:root:[Epoch 5] validation: Recall@1=51.080351
+INFO:root:[Epoch 5] validation: Recall@2=64.331533
+INFO:root:[Epoch 5] validation: Recall@4=75.354490
+INFO:root:[Epoch 5] validation: Recall@8=85.094531
+INFO:root:[Epoch 5] validation: Recall@16=91.475354
+INFO:root:[Epoch 5] validation: NMI=62.995546
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 51.080351 NMI: 62.995546
+INFO:root:Epoch 6 learning rate=0.000100
+INFO:root:[Epoch 6] validation: Recall@1=52.802161
+INFO:root:[Epoch 6] validation: Recall@2=65.158677
+INFO:root:[Epoch 6] validation: Recall@4=76.384200
+INFO:root:[Epoch 6] validation: Recall@8=85.381499
+INFO:root:[Epoch 6] validation: Recall@16=91.981769
+INFO:root:[Epoch 6] validation: NMI=64.163943
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 52.802161 NMI: 64.163943
+INFO:root:Epoch 7 learning rate=0.000100
+INFO:root:[Epoch 7] validation: Recall@1=53.679946
+INFO:root:[Epoch 7] validation: Recall@2=66.239028
+INFO:root:[Epoch 7] validation: Recall@4=76.839973
+INFO:root:[Epoch 7] validation: Recall@8=86.259284
+INFO:root:[Epoch 7] validation: Recall@16=92.555706
+INFO:root:[Epoch 7] validation: NMI=64.978989
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 53.679946 NMI: 64.978989
+INFO:root:Epoch 8 learning rate=0.000100
+INFO:root:[Epoch 8] validation: Recall@1=55.232951
+INFO:root:[Epoch 8] validation: Recall@2=67.758271
+INFO:root:[Epoch 8] validation: Recall@4=78.342336
+INFO:root:[Epoch 8] validation: Recall@8=86.529372
+INFO:root:[Epoch 8] validation: Recall@16=93.045240
+INFO:root:[Epoch 8] validation: NMI=65.655507
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 55.232951 NMI: 65.655507
+INFO:root:Epoch 9 learning rate=0.000100
+INFO:root:[Epoch 9] validation: Recall@1=56.397704
+INFO:root:[Epoch 9] validation: Recall@2=68.787981
+INFO:root:[Epoch 9] validation: Recall@4=79.169480
+INFO:root:[Epoch 9] validation: Recall@8=87.626604
+INFO:root:[Epoch 9] validation: Recall@16=93.197164
+INFO:root:[Epoch 9] validation: NMI=65.629717
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 56.397704 NMI: 65.629717
+INFO:root:Epoch 10 learning rate=0.000100
+INFO:root:[Epoch 10] validation: Recall@1=56.988521
+INFO:root:[Epoch 10] validation: Recall@2=69.091830
+INFO:root:[Epoch 10] validation: Recall@4=79.490209
+INFO:root:[Epoch 10] validation: Recall@8=87.643484
+INFO:root:[Epoch 10] validation: Recall@16=93.332208
+INFO:root:[Epoch 10] validation: NMI=66.613612
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 56.988521 NMI: 66.613612
+INFO:root:Epoch 11 learning rate=0.000100
+INFO:root:[Epoch 11] validation: Recall@1=58.035111
+INFO:root:[Epoch 11] validation: Recall@2=70.509791
+INFO:root:[Epoch 11] validation: Recall@4=79.473329
+INFO:root:[Epoch 11] validation: Recall@8=87.575962
+INFO:root:[Epoch 11] validation: Recall@16=93.501013
+INFO:root:[Epoch 11] validation: NMI=66.271469
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 58.035111 NMI: 66.271469
+INFO:root:Epoch 12 learning rate=0.000050
+INFO:root:[Epoch 12] validation: Recall@1=58.271438
+INFO:root:[Epoch 12] validation: Recall@2=70.374747
+INFO:root:[Epoch 12] validation: Recall@4=79.810939
+INFO:root:[Epoch 12] validation: Recall@8=87.559082
+INFO:root:[Epoch 12] validation: Recall@16=93.416610
+INFO:root:[Epoch 12] validation: NMI=66.006758
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 58.271438 NMI: 66.006758
+INFO:root:Epoch 13 learning rate=0.000050
+INFO:root:[Epoch 13] validation: Recall@1=58.946658
+INFO:root:[Epoch 13] validation: Recall@2=70.560432
+INFO:root:[Epoch 13] validation: Recall@4=80.300473
+INFO:root:[Epoch 13] validation: Recall@8=87.862930
+INFO:root:[Epoch 13] validation: Recall@16=93.230925
+INFO:root:[Epoch 13] validation: NMI=66.477966
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 58.946658 NMI: 66.477966
+INFO:root:Epoch 14 learning rate=0.000025
+INFO:root:[Epoch 14] validation: Recall@1=58.457124
+INFO:root:[Epoch 14] validation: Recall@2=70.273464
+INFO:root:[Epoch 14] validation: Recall@4=79.996624
+INFO:root:[Epoch 14] validation: Recall@8=88.031735
+INFO:root:[Epoch 14] validation: Recall@16=93.264686
+INFO:root:[Epoch 14] validation: NMI=65.945919
+INFO:root:Epoch 15 learning rate=0.000025
+INFO:root:[Epoch 15] validation: Recall@1=58.963538
+INFO:root:[Epoch 15] validation: Recall@2=70.796759
+INFO:root:[Epoch 15] validation: Recall@4=79.945982
+INFO:root:[Epoch 15] validation: Recall@8=87.947333
+INFO:root:[Epoch 15] validation: Recall@16=93.315327
+INFO:root:[Epoch 15] validation: NMI=67.075067
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 58.963538 NMI: 67.075067
+INFO:root:Epoch 16 learning rate=0.000013
+INFO:root:[Epoch 16] validation: Recall@1=59.807562
+INFO:root:[Epoch 16] validation: Recall@2=71.438217
+INFO:root:[Epoch 16] validation: Recall@4=80.536799
+INFO:root:[Epoch 16] validation: Recall@8=88.031735
+INFO:root:[Epoch 16] validation: Recall@16=93.382849
+INFO:root:[Epoch 16] validation: NMI=66.486681
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 59.807562 NMI: 66.486681
+INFO:root:Epoch 17 learning rate=0.000013
+INFO:root:[Epoch 17] validation: Recall@1=59.773801
+INFO:root:[Epoch 17] validation: Recall@2=71.353815
+INFO:root:[Epoch 17] validation: Recall@4=80.638082
+INFO:root:[Epoch 17] validation: Recall@8=88.352465
+INFO:root:[Epoch 17] validation: Recall@16=93.551654
+INFO:root:[Epoch 17] validation: NMI=67.731637
+INFO:root:Epoch 18 learning rate=0.000006
+INFO:root:[Epoch 18] validation: Recall@1=59.638758
+INFO:root:[Epoch 18] validation: Recall@2=71.185010
+INFO:root:[Epoch 18] validation: Recall@4=80.232951
+INFO:root:[Epoch 18] validation: Recall@8=88.099257
+INFO:root:[Epoch 18] validation: Recall@16=93.399730
+INFO:root:[Epoch 18] validation: NMI=66.567395
+INFO:root:Epoch 19 learning rate=0.000006
+INFO:root:[Epoch 19] validation: Recall@1=59.554355
+INFO:root:[Epoch 19] validation: Recall@2=71.286293
+INFO:root:[Epoch 19] validation: Recall@4=80.553680
+INFO:root:[Epoch 19] validation: Recall@8=88.251182
+INFO:root:[Epoch 19] validation: Recall@16=93.551654
+INFO:root:[Epoch 19] validation: NMI=67.435334
+INFO:root:Epoch 20 learning rate=0.000006
+INFO:root:[Epoch 20] validation: Recall@1=59.655638
+INFO:root:[Epoch 20] validation: Recall@2=71.336935
+INFO:root:[Epoch 20] validation: Recall@4=80.756246
+INFO:root:[Epoch 20] validation: Recall@8=88.352465
+INFO:root:[Epoch 20] validation: Recall@16=93.450371
+INFO:root:[Epoch 20] validation: NMI=67.385847
+INFO:root:Epoch 21 learning rate=0.000006
+INFO:root:[Epoch 21] validation: Recall@1=59.469953
+INFO:root:[Epoch 21] validation: Recall@2=71.168130
+INFO:root:[Epoch 21] validation: Recall@4=80.334234
+INFO:root:[Epoch 21] validation: Recall@8=88.149899
+INFO:root:[Epoch 21] validation: Recall@16=93.433491
+INFO:root:[Epoch 21] validation: NMI=66.808343
+INFO:root:Epoch 22 learning rate=0.000006
+INFO:root:[Epoch 22] validation: Recall@1=59.503714
+INFO:root:[Epoch 22] validation: Recall@2=71.117488
+INFO:root:[Epoch 22] validation: Recall@4=80.790007
+INFO:root:[Epoch 22] validation: Recall@8=88.301823
+INFO:root:[Epoch 22] validation: Recall@16=93.382849
+INFO:root:[Epoch 22] validation: NMI=66.265512
+INFO:root:Epoch 23 learning rate=0.000006
+INFO:root:[Epoch 23] validation: Recall@1=60.010128
+INFO:root:[Epoch 23] validation: Recall@2=71.286293
+INFO:root:[Epoch 23] validation: Recall@4=80.975692
+INFO:root:[Epoch 23] validation: Recall@8=88.386226
+INFO:root:[Epoch 23] validation: Recall@16=93.315327
+INFO:root:[Epoch 23] validation: NMI=67.374241
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 60.010128 NMI: 67.374241
+INFO:root:Epoch 24 learning rate=0.000006
+INFO:root:[Epoch 24] validation: Recall@1=60.313977
+INFO:root:[Epoch 24] validation: Recall@2=71.775827
+INFO:root:[Epoch 24] validation: Recall@4=80.840648
+INFO:root:[Epoch 24] validation: Recall@8=88.470628
+INFO:root:[Epoch 24] validation: Recall@16=93.146523
+INFO:root:[Epoch 24] validation: NMI=66.813609
+INFO:root:Saving npairs_model.
+INFO:root:New best validation: R@1: 60.313977 NMI: 66.813609
+INFO:root:Epoch 25 learning rate=0.000006
+INFO:root:[Epoch 25] validation: Recall@1=60.027009
+INFO:root:[Epoch 25] validation: Recall@2=71.185010
+INFO:root:[Epoch 25] validation: Recall@4=80.536799
+INFO:root:[Epoch 25] validation: Recall@8=88.099257
+INFO:root:[Epoch 25] validation: Recall@16=93.517893
+INFO:root:[Epoch 25] validation: NMI=67.552838
+INFO:root:Run 1 finished with 60.313977
+INFO:root:Average validation of 1 runs:
+R@1	R@2	R@4	R@8	R@16	NMI
+60.31	71.78	80.84	88.47	93.15	66.81
