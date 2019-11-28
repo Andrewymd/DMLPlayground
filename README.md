@@ -1,9 +1,9 @@
 Distance Metric Learning Playground
 -------
 
-This repository contains code for training and evaluating various Deep Metric Learning (DML) algorithms
-on the [CUB200-2011](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html), [Cars196](https://ai.stanford.edu/~jkrause/cars/car_dataset.html)
- and [SOP](http://cvgl.stanford.edu/resources.html) datasets.
+This repository contains code for the paper _Unbiased Evaluation of Deep Metric Learning Algorithms_. Several Deep Metric Learning (DML) algorithms
+were trained and evaluated on the [CUB200-2011](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html), [Cars196](https://ai.stanford.edu/~jkrause/cars/car_dataset.html)
+ and [SOP](http://cvgl.stanford.edu/resources.html) datasets. The aim is to create a testbed for benchmarking future DML methods under fair conditions.
  Every algorithm is implemented with Apache (Incubating) MXNet 1.5+. Python 2.7 and 3.5+ is supported.
 
 Currently supporting the following algorithms:
@@ -41,6 +41,14 @@ Every method is evaluated under the following conditions:
 ![Cars196_results](results/plots/CARS196_inception_plot.png)
 
 ![SOP_results](results/plots/SOP_inception_plot.png)
+
+### Effects of the embedding size
+
+![embsize_results](results/plots/embedding_size.png)
+
+### Effect of training batch size
+
+![batchsize_results](results/plots/fig_batch_size.png)
 
 How to use
 -------
