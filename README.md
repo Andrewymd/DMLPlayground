@@ -1,7 +1,7 @@
 Distance Metric Learning Playground
 -------
 
-This repository contains code for the paper _Unbiased Evaluation of Deep Metric Learning Algorithms_. Several Deep Metric Learning (DML) algorithms
+This repository contains code for the paper [_Unbiased Evaluation of Deep Metric Learning Algorithms_](https://arxiv.org/abs/1911.12528). Several Deep Metric Learning (DML) algorithms
 were trained and evaluated on the [CUB200-2011](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html), [Cars196](https://ai.stanford.edu/~jkrause/cars/car_dataset.html)
  and [SOP](http://cvgl.stanford.edu/resources.html) datasets. The aim is to create a testbed for benchmarking future DML methods under fair conditions.
  Every algorithm is implemented with Apache (Incubating) MXNet 1.5+. Python 2.7 and 3.5+ is supported.
@@ -75,7 +75,14 @@ Paper
 If you find this repository useful please consider citing our paper:
 
 ```
-TODO: bibtex comes here
+@misc{fehervari2019unbiased,
+    title={Unbiased Evaluation of Deep Metric Learning Algorithms},
+    author={Istvan Fehervari and Avinash Ravichandran and Srikar Appalaraju},
+    year={2019},
+    eprint={1911.12528},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
+}
 ```
 
 License
